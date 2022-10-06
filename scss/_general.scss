@@ -1,0 +1,39 @@
+/* GENERAL */
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  html{
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  img{
+    display: block;
+    height: auto;
+  }
+  
+  body{
+    @include stick-footer;
+    margin: 0;
+    font-family: "Poppins", "Arial", sans-serif !important;
+    font-weight: 400 !important;
+    overflow-x: hidden; 
+  }
+  
+  /* VISUALLY-HIDDEN */
+  .visually-hidden {
+    @include hidden;
+  }
+
+  /* STICKY-FOOTER */
+  .site-main{
+    flex-grow: 1;
+  }
+  

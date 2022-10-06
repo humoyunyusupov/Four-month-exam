@@ -1,0 +1,58 @@
+.footer {
+    background-color: #1B1B1B;
+}
+
+.footer-inner {
+    padding: 66px 0 62px 0;
+}
+
+.logo-group {
+    max-width: 372px;
+}
+
+.logo-group-title {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.list {
+    padding: 0;
+}
+
+.list-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.address {
+    max-width: 282px;
+}
+
+
+.footer-bottom {
+    padding: 29px 0;
+    border-top: 0.8px solid #D2D2D2;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.title-size {
+    font-size: 20px;
+}
+
+@include mobile-first(640px){
+    .footer-text{
+        font-size: 13px;
+    }
+}
+
+@include mobile-first(1200px){
+    .footer-about-list{
+        margin-right: 130px;
+    }
+}
